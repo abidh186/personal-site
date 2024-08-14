@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal website! This site serves as a professional portfolio and resume, providing information about my background, projects, and how to get in touch with me.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About Me](#about-me)
+  - [Resume](#resume)
+- [Contact Information](#contact-information)
+- [Projects](#projects)
+- [Work History](#work-history)
 
-## Expanding the ESLint configuration
+## About Me
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This section has a brief intro of me. It also includes a link to my resume.
 
-- Configure the top-level `parserOptions` property like this:
+### Resume
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You can view my resume by [clicking here](path-to-resume-file) or download it directly from [this link](path-to-resume-file). The resume includes details about my education, skills, and professional experience.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contact Information
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Feel free to reach out to me through the following channels:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Email**: [email@example.com](mailto:email@example.com)
+- **Phone**: [email@example.com](mailto:email@example.com)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/profile)
+- **GitHub**: [GitHub Profile](https://github.com/profile)
+
+## Projects
+
+Here’s a list of some projects I have worked on:
+
+1. **Project Name 1** - A brief description of the project. [Link to project](https://link-to-project)
+2. **Project Name 2** - A brief description of the project. [Link to project](https://link-to-project)
+3. **Project Name 3** - A brief description of the project. [Link to project](https://link-to-project)
+
+## Work History
+
+Below is a summary of my work experience:
+
+- **Job Title 1** at [Company Name](https://company-website.com) (Year - Year)
+  - Brief description of responsibilities and achievements.
+- **Job Title 2** at [Company Name](https://company-website.com) (Year - Year)
+  - Brief description of responsibilities and achievements.
+- **Job Title 3** at [Company Name](https://company-website.com) (Year - Year)
+  - Brief description of responsibilities and achievements.
+
+---
+
+Thank you for visiting my personal website! For any inquiries or further information, please do not hesitate to contact me.
